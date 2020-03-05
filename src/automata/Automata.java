@@ -8,10 +8,7 @@ package automata;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-/**
- *
- * @author Misael
- */
+
 public final class Automata {
 
     private int Q;
@@ -125,7 +122,7 @@ public final class Automata {
      */
     public void analizaTexto() {
         Abrir_archivo abreArchivo = new Abrir_archivo();
-        abreArchivo.leerArchivo("C:\\Users\\Misael\\Desktop\\LENGUAJES Y AUTOMATAS 1\\Automata_1_1\\automata.txt");//Direccion del archivo de texto
+        abreArchivo.leerArchivo("C:\\Users\\CECI\\Documents\\NetBeansProjects\\Practica_1\\automata.txt");//Direccion del archivo de texto
         StringTokenizer token = new StringTokenizer(abreArchivo.getTexto());//Se manda a llamar la clase StringTokeneizer para dividir un texto en tokens.
         while (token.hasMoreElements()) {
             Object nextElement = token.nextElement();//Se guarda un token en la variable nextElement de tipo Object.

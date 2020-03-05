@@ -6,10 +6,7 @@
 package automata;
 
 
-/**
- *
- * @author Misael
- */
+
 public class Analizador {
 
     private String cadena;

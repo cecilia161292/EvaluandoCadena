@@ -10,10 +10,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-/**
- *
- * @author Misael
- */
+
 public class Abrir_archivo {
 
     private String texto = "";

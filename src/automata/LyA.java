@@ -8,10 +8,7 @@ package automata;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-/**
- *
- * @author Misael
- */
+
 public class LyA {
 
     Scanner in = new Scanner(System.in);
